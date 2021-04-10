@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan:200,300,400,500,600,700,800,900&display=swap');
+
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px 0px;
+    font-family: 'Spartan', sans-serif;
+}
+
+body
+{
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.842) 0%,
+        rgb(51, 52, 59) 100%
+       
+    );
+    
+}
+
+
+
+.timesMarks{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 400px;
+    min-height: 200px;
+    background: #424246;
+    text-align: center;
+    margin: 1px auto;
+    border-radius: 15px;
+    padding: 15px 8px;
+    overflow: hidden;
+    bottom: -100%;
+    transition: 850ms
+
+}
+
+.timesMarks.active{
+    bottom: 0;
+    transition: 400m;
+}
+
+
+
+
+h4{
+    margin: 32 0;
+    color: #ffff;
+    font-size: 24px;
+}
+
+
+
+.tab{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 8px auto;
+    color: #fff;
+    background: linear-gradient(
+        90deg,
+        rgb(252, 130, 44) 0%,
+        rgba(250, 86, 22, 0.904) 100%
+        
+        
+    );
+
+    padding: 12px 10px;
+    border-radius: 5px;
+    width: 90%;
+
+}
+
+@media all and (max-width:30em){
+
+.timesMarks {
+    width: 270px;
+}
+
+h4{
+    font-size: 19px;
+}
+
+}

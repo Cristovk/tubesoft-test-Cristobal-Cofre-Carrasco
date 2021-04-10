@@ -1,0 +1,39 @@
+version : "3.9"
+
+services:
+    react.app:
+        image: react-app
+        stdin_open: true
+        ports:
+            - "3000-3000"
+        networks: 
+            - apps   
+    
+    server: 
+        image: server
+        ports:
+            - "4000:4000"
+         
+        networks:
+            - apps    
+          
+        depends_on:
+           - db    
+
+    db:
+        image: postgres
+        ports:
+            - '5432:5432'
+
+        environment:
+            - POSTGRES_USER=postgres
+            - POSTGRES_DB=time
+            - POSTGRES_PASSWORD=postgres   
+        volumes:    
+            - ./pgdata/var/lib/postgresql/data/pgdata  
+        
+        networks:
+            - apps
+networks:
+    apps:
+        driver: bridge

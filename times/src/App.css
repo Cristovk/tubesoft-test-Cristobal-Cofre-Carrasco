@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan:200,300,400,500,600,700,800,900&display=swap');
+
+
+body
+{
+background: #424246;
+display:flex;
+justify-content: center;
+align-items: center;
+background-size: 90% 90%;
+max-height: 1000px;
+}

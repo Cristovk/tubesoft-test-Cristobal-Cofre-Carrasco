@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan:200,300,400,500,600,700,800,900&display=swap');
+
+
+*
+{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+  
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.timeNumber{
+  text-align: center;
+  position:static;
+  display: flex;
+  padding: 120px  10px 5px;
+  justify-content: center;
+
+}
+
+.timeNumber span{
+  font-size: 320px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color:#5f9fff;
+ 
+}
+
+.bx{
+position: relative;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+z-index: 1;
+
+}
+
+
+ .bx .bxstart{
+  display: inline-block;   
+  position: relative;
+  opacity: 1;
+  padding: .9em 2em;
+  margin-top: 15px;
+  border: 80px solid rgba(255,255 255, 0);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #ffff;
+  text-decoration: none;
+  font-family: 'Spartan', sans-serif;
+  background: #f79e4b;
+  text-shadow: 0 0.02em 0.04em rgba(141, 141, 141, 0.74);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.bx .bxpause{
+display: inline-block;   
+position: relative;
+opacity: 1;
+padding: .9em 2em;
+margin-top: 15px;
+border: 80px solid rgba(255,255 255, 0);
+border-radius: 40px;
+box-sizing: border-box;
+color: #ffff;
+text-decoration: none;
+font-family: 'Spartan', sans-serif;
+background: #f79e4b;
+text-shadow: 0 0.02em 0.04em rgba(141, 141, 141, 0.74);
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 1px;
+transition: all 0.3s;
+}
+
+.bx .bxresumen{
+  display: inline-block;   
+  position: relative;
+  opacity: 1;
+  padding: .9em 1.6em;
+  margin-top: 20px;
+  border: 80px solid rgba(255,255 255, 0);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #ffff;
+  text-decoration: none;
+  font-family: 'Spartan', sans-serif;
+  background: #f79e4b;
+  text-shadow: 0 0.02em 0.04em rgba(141, 141, 141, 0.74);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+ .bx  .bxstop{
+  display: inline-block;   
+  position: relative;
+  opacity: 1;
+  padding: .9em 2em;
+  margin-top: 50px;
+  border: 80px solid rgba(255,255 255, 0);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #ffff;
+  text-decoration: none;
+  font-family: 'Spartan', sans-serif;
+  background: #f79e4b;
+  text-shadow: 0 0.02em 0.04em rgba(141, 141, 141, 0.74);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+    }
+
+.bx .bxstart:hover{
+  
+  background: #9b4bf7;
+}
+
+.bx .bxpause:hover{
+  
+  background: #9b4bf7;
+}
+.bx .bxresumen:hover{
+  
+  background: #9b4bf7;
+}
+.bx .bxstop:hover{
+  
+  background: #9b4bf7;
+}
+
+@media all and (max-width: 540px){
+.bx .bxstart {
+  display: block;
+  margin:  1em auto;
+  padding-right: 30px;
+}
+
+.bx .bxpause {
+  display: block;
+  margin:  1em auto;
+  padding-right: 30px;
+}
+.bx .bxstop {
+  display: block;
+  margin:  1em auto;
+  padding-right: 30px;
+}
+
+.bx .bxresumen {
+  display: block;
+  margin:  1em auto;
+
+}
+.timeNumber{
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  margin: 1.2em auto;
+  width: 30px ;
+  padding-right: 0px;
+  
+}
+
+  
+.timeNumber  span {
+  width: 180px;
+  font-size: 75px;
+  display:flex;
+  text-align: center;
+  color:#619DF5;
+  margin: 0.4em auto;
+}
+
+
+}
+

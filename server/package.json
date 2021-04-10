@@ -1,0 +1,35 @@
+{
+  "name": "chronometer",
+  "version": "1.0.0",
+  "description": "save marks from Chronometer",
+  "main": "out.js",
+  "repository": "Cristovk",
+  "author": "Cristovk",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "@babel/node": "^7.13.13",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "postgres": "^1.0.2",
+    "sequelize": "^6.6.2",
+    "sql": "^0.78.0"
+  },
+  "scripts": {
+    "dev": "nodemon ./out.js --exec babel-node",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.7",
+    "superagent": "^6.1.0",
+    "supertest": "^6.1.3"
+  }
+}
